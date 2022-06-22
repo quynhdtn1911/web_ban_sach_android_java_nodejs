@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginLeft="8dp"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:src="@drawable/user_image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginStart="8dp"
+        >
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten sach"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Tác giả: "
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/txtAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyen Nhat Anh"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Thể loại: "
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/txtGeneres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Văn học Việt Nam"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Giá: "
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Số lượng: "
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/txtQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

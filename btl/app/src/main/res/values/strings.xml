@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">btl</string>
+    <array name="shipment">
+        <item>Giao hàng nhanh</item>
+        <item>Giao hàng tiết kiệm</item>
+    </array>
+</resources>

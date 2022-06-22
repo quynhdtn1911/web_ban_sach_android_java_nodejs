@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/main"
+    app:startDestination="@id/mHome">
+
+    <fragment
+        android:id="@+id/mHome"
+        android:name="com.example.btl.fragment.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/mCart"
+        android:name="com.example.btl.fragment.CartsFragment"
+        android:label="My carts" />
+    <fragment
+        android:id="@+id/mOrder"
+        android:name="com.example.btl.fragment.OrdersFragment"
+        android:label="My orders" />
+    <fragment
+        android:id="@+id/mNewProduct"
+        android:name="com.example.btl.fragment.NotificationsFragment"
+        android:label="New products" />
+    <fragment
+        android:id="@+id/mProfile"
+        android:name="com.example.btl.fragment.AccountFragment"
+        android:label="Profile" />
+</navigation>
